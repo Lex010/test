@@ -1,3 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     background-color: #141E55;
+}
+/* header */
+.head {
+    height: 80px;
+    background-color: #192A32;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 10% 0 10%;
+}
+
+.head__logo {
+    background-color: #141E55;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.head__button {
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+#head__lang-select {
+    border: none;
+    font-size: 16px;
 }
