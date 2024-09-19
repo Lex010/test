@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     background-color: #141E55;
+    font-family: 'Poppins', sans-serif;
 }
 /* header */
 .head {
@@ -16,21 +16,38 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 0 10% 0 10%;
+    gap: 15px;
 }
 
 .head__logo {
     background-color: #141E55;
     color: #FFFFFF;
     font-size: 20px;
+    font-weight: 400;
+    padding: 12px 24px;
 }
 
-.head__button {
+.head__button,
+#head__lang-select {
     cursor: pointer;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    background-color: #1A3769;
+    color: #FCFCFC;
+    border-radius: 16px;
 }
 
-#head__lang-select {
-    border: none;
-    font-size: 16px;
+.head__buttons1, .head__buttons2 {
+    display: flex;
+    gap: 10px;
+}
+
+.head__button_sign {
+    background-color: #EC622B;
+}
+
+.head__button_login {
+    background-color: #0FA810;
 }
