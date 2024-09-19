@@ -28,7 +28,8 @@ body {
 }
 
 .head__button,
-#head__lang-select {
+#head__lang-select,
+.element1__btn {
     cursor: pointer;
     border: none;
     font-size: 1rem;
@@ -37,11 +38,20 @@ body {
     background-color: #1A3769;
     color: #FCFCFC;
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .head__buttons1, .head__buttons2 {
     display: flex;
     gap: 10px;
+}
+
+.button__icon--gift,
+.button__icon--smartphone {
+    width: 24px;
+    height: 24px;
 }
 
 .head__button_sign {
@@ -50,4 +60,26 @@ body {
 
 .head__button_login {
     background-color: #0FA810;
+}
+/* main */
+.main {
+    margin-top: 20px;
+    padding: 0 10% 0 10%;
+}
+
+.main__container {
+    display: flex;
+    gap: 20px;
+}
+
+.section__element {
+    border-radius: 6px;
+}
+
+.section__element--1 {
+    height: 98px;
+    background-color: #FFFFFF;
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
 }
