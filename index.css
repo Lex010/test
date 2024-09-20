@@ -283,6 +283,12 @@ body {
 }
 
 /* section__element--1-r */
+.section--right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .section__element--1-r {
     width: 295px;
 }
@@ -339,3 +345,36 @@ body {
     color: #FCFCFC;
     cursor: pointer;
 }
+
+/* r-2 */
+
+.section__element--2-r {
+    background-color: #FFFFFF;
+    max-width: 295px;
+}
+
+.r-2__head {
+    background-color: #192A32;
+    height: 60px;
+    color: #FCFCFC;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 6px 6px;
+}
+
+.r-2__greed-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px 20px 20px 25px;
+}
+
+.r-2__greed-item {
+    width: 120px;
+    height: 130px;
+    border-radius: 6px;
+  }
