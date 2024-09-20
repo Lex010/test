@@ -85,6 +85,12 @@ body {
     border-radius: 6px;
 }
 
+.section--left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 /* section__element--1-l */
 
 .section__element--1-l {
@@ -104,6 +110,69 @@ body {
 .element1__btn {
     width: 179px;
     line-height: 19.2px;
+}
+
+/* 2-l */
+
+.section__element--2-l {
+    height: 384px;
+    background-image: url('assets/2-l-background.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.l-2__main--cont {
+    padding: 41px 0 0 20px;
+}
+
+.l-2__digits96 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 8px;
+}
+
+.l-2__star-cont {
+    display: flex;
+    gap: 6px;
+}
+
+.l-2__star {
+    height: 23px;
+    width: 24px;
+}
+
+.l-2__txt-1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 48px;
+    font-weight: 700;
+    max-width: 538px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+.l-2__btn {
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px 75.5px;
+    background-color: #EC622B;
+    color: #FCFCFC;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+.l-2__txt-2 {
+    font-size: 6px;
+    line-height: 9px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px 0 0 57.5px;
 }
 
 /* section__element--1-r */
@@ -126,6 +195,7 @@ body {
     border-radius: 60px;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .elem-1-r__btn-1-e {
