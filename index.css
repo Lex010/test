@@ -282,6 +282,30 @@ body {
     margin-top: 16px;
 }
 
+/* l-5 */
+
+.section__element--5-l {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 32px 20px;
+    color: #192A32;
+    gap: 16px;
+}
+
+.l-5__txt1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    text-transform: uppercase;
+}
+
+.l-5__txt2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 /* section__element--1-r */
 .section--right {
     display: flex;
