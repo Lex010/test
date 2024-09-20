@@ -14,9 +14,9 @@ body {
     background-color: #192A32;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 10vh 0 10vh;
-    gap: 15px;
+    gap: 50px;
 }
 
 .head__logo {
@@ -28,7 +28,7 @@ body {
 }
 
 .head__button,
-#head__lang-select,
+.head__lang-select--div,
 .element1__btn {
     cursor: pointer;
     border: none;
@@ -43,9 +43,17 @@ body {
     gap: 10px;
 }
 
+#head__lang-select {
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #1A3769;
+    color: #FCFCFC;
+}
+
 .head__buttons1, .head__buttons2 {
     display: flex;
-    gap: 10px;
+    gap: 21px;
 }
 
 .button__icon--gift,
@@ -77,13 +85,27 @@ body {
     border-radius: 6px;
 }
 
+/* section__element--1-l */
+
 .section__element--1-l {
     height: 98px;
     background-color: #FFFFFF;
     padding: 25px 20px;
     display: flex;
     align-items: center;
+    gap: 40px;
 }
+
+.element1__txt {
+    width: 666px;
+    line-height: 24px;
+}
+
+.element1__btn {
+    width: 179px;
+    line-height: 19.2px;
+}
+
 /* section__element--1-r */
 .section__element--1-r {
     width: 295px;
@@ -118,4 +140,25 @@ body {
 
 .elem-1-r__btn-txt {
     font-size: 16px;
+}
+
+.elem-1-r__main {
+    background-color: #FFFFFF;
+    color: #7C7C7C;
+    padding: 24px 0;
+}
+
+.elem-1-r__unit {
+    padding: 8px 0 8px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    gap: 12px;
+}
+
+.elem-1-r__unit:hover {
+    background-color: #192A32;
+    color: #FCFCFC;
+    cursor: pointer;
 }
