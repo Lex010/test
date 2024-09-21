@@ -667,6 +667,31 @@ body {
     text-decoration: underline;
 }
 
+/* l-11 */
+
+.section__element--11-l{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 30px 20.5px;
+    color: #192A32;
+}
+
+.l-11__h2 {
+    text-transform: uppercase;
+    margin-left: 6.5px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+.l-11__qestions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 /* section__element--1-r */
 .section--right {
     display: flex;
