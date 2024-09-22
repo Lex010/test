@@ -692,6 +692,43 @@ body {
     gap: 16px;
 }
 
+.l-11__summary {
+    padding: 20px;
+    border: 1px solid #77777780;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.l-11__summary::after {
+    content: '';
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 9px;
+    background: url('assets/11-left/1.svg') no-repeat center center;
+    background-size: contain;
+}
+
+.l-11__details[open] .l-11__summary::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.l-11__txt1 {
+    padding: 16px 12px;
+    border-radius: 0px 0px 6px 6px;
+    opacity: 0.9px;
+    background-color: #DFE8F6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 /* section__element--1-r */
 .section--right {
     display: flex;
