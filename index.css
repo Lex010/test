@@ -887,3 +887,20 @@ body {
     height: 130px;
     border-radius: 6px;
   }
+
+  /* добавляю сияние */
+
+  .section__element--4-l {
+    box-shadow: 0 100px 70px 3px #0085C2,
+                0 200px 150px 5px #00B9DE;
+  }
+
+  .section__element--7-l {
+    box-shadow: 0 500px 70px 3px #0085C2,
+                0 700px 150px 5px #00B9DE;
+  }
+
+  .section__element--10-l {
+    box-shadow: 0 100px 70px 3px #0085C2,
+                0 200px 150px 5px #00B9DE;
+  }
